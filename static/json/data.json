@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Alberta (02)",
+        "id": "A02",
+        "lat": 55.7,
+        "lon": -110.2,
+        "date": "May 5th, 2023",
+        "image_urls": [
+            "1.webp",
+            "2.webp",
+            "3.webp",
+            "4.webp",
+            "5.webp",
+            "6.webp",
+            "7.webp",
+            "8.webp",
+            "9.webp",
+            "10.webp"
+        ],
+        "video_url": "static/vid/A02.mp4",
+        "json_url": "static/json/A02.json",
+        "marker_color": "blue"
+    },
+    {
+        "name": "British Columbia (02)",
+        "id": "B02",
+        "lat": 53.7,
+        "lon": -122.8,
+        "date": "May 6th, 2023",
+        "image_urls": [
+            "1.webp",
+            "2.webp",
+            "3.webp"
+        ],
+        "video_url": "static/vid/A02.mp4",
+        "json_url": "static/json/A02.json",
+        "marker_color": "blue"
+    }
+]

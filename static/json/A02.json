@@ -1,0 +1,23 @@
+{
+    "start_time": "2023-05-29T22:10:00",
+    "end_time": "2023-05-29T23:50:00",
+    "extent": null,
+    "bucket": "noaa-goes18",
+    "composite": "cimss_true_color_sunz_rayleigh",
+    "domain": "F",
+    "location": "Custom",
+    "projection": "lcc",
+    "satellite": "GOES-18",
+    "lat1": 52,
+    "lat2": 58,
+    "lon1": -116,
+    "lon2": -104,
+    "lat_lon_label": true,
+    "state_borders": true,
+    "water_borders": false,
+    "lat_lon_grid": true,
+    "country_borders": true,
+    "county_borders": false,
+    "border_color": "orange",
+    "border_width": 0.5
+}

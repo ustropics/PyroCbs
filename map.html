@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <style>
+        html, body { width: 100%; height: 100%; margin: 0; padding: 0; }
+        #map_01 { position: absolute; top: 0; bottom: 0; right: 0; left: 0; }
+        .leaflet-container { font-size: 1rem; }
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+</head>
+<body>
+    <div id="map_01"></div>
+    
+    <script>
+        var map_01 = L.map("map_01", {
+            center: [55.0, -125],
+            zoom: 6,
+            zoomControl: false,
+            preferCanvas: false,
+        });
+
+        L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png", {
+            attribution: "&copy; OpenStreetMap contributors &copy; CartoDB",
+            maxZoom: 18,
+            minZoom: 5,
+        }).addTo(map_01);
+
+        var firstMarker = null; // Store the first marker reference
+
+      // Fetch JSON data from an external file
+      $.getJSON("static/json/data.json", function(jsonData) {
+        jsonData.forEach(function(entry, index) {
+            var marker = L.marker([entry.lat, entry.lon], {}).addTo(map_01);
+            var icon = L.AwesomeMarkers.icon({
+                "extraClasses": "fa-rotate-0",
+                "icon": "info-sign",
+                "iconColor": "white",
+                "markerColor": entry.marker_color,
+                "prefix": "glyphicon"
+            });
+            marker.setIcon(icon);
+
+            var popup = L.popup({"maxWidth": 1000, "minWidth": 100});
+            var popupContent = `<div>
+                <b>${entry.name}</b><br>
+                ${entry.date}<br>
+                Lat: ${entry.lat}<br>
+                Lon: ${entry.lon}<br>
+                ${entry.image_urls && entry.image_urls.length > 0 ? `<a href='${entry.image_urls[0]}' target='_blank'>View Image</a>` : "No Image Available"}
+            </div>`;
+            popup.setContent(popupContent);
+            marker.bindPopup(popup);
+
+            // Store the first marker
+            if (index === 0) {
+                firstMarker = marker;
+            }
+
+            // Listen for marker click and send data to parent
+            marker.on('click', function() {
+                window.parent.postMessage(
+                    {
+                        type: 'updateContent',
+                        name: entry.name,
+                        id: entry.id,
+                        date: entry.date,
+                        lat: entry.lat,
+                        lon: entry.lon,
+                        imageUrl: entry.image_urls,
+                        videoUrl: entry.video_url,
+                        jsonUrl: entry.json_url,
+                    },
+                    '*'
+                );
+            });
+        });
+
+        // Simulate a click on the first marker after the map loads
+        if (firstMarker) {
+            setTimeout(() => {
+                firstMarker.fire('click');
+            }, 500);
+        }
+    }).fail(function() {
+        console.error("Failed to load JSON data.");
+    });
+  </script>
+</body>
+</html>
