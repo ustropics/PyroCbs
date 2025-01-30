@@ -21,7 +21,7 @@ a:focus {
 
 .navbar {
   padding: 15px 10px;
-  background: #2b2b2b;
+  background: #011a19;
   border: none;
   border-radius: 0;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* add box-shadow */
@@ -45,10 +45,16 @@ a:focus {
   align-items: stretch;
 }
 
+
+#top_navbar {
+  background: #011a19;
+  z-index: 5;
+}
+
 #sidebar {
   min-width: 400px;
   max-width: 400px;
-  background: #0f0f0f;
+  background: #011a19;
   color: #fff;
   transition: all 0.3s;
   height: 100vh;
@@ -61,7 +67,7 @@ a:focus {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #0f0f0f;
+  background: #011a19;
   text-align: center;
 }
 
@@ -154,11 +160,6 @@ a.download:hover {
   #sidebarCollapse span {
     display: none;
   }
-}
-
-#top_navbar {
-  background: #0f0f0f;
-  z-index: 5;
 }
 
 .map-iframe {
