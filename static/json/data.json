@@ -1,5 +1,29 @@
 [
     {
+        "name": "Alberta (01)",
+        "id": "A01",
+        "lat": 55.7,
+        "lon": -109.2,
+        "date": "May 4th, 2023",
+        "image_urls": [
+            "54fee62ae2ab443aca961b271d95179f.webp",
+            "44ba98f1941c2161927248e7e54f5d09.webp",
+            "27b34169e7381530a0dfc4f5c06e5ac8.webp",
+            "86b525dcda2f573c163a34972b171329.webp",
+            "c8f61fcdd9e0e29c764f79841a537be9.webp",
+            "3929a29614b888ce9e4713d0b89d6284.webp",
+            "4b32983ff53a996a8e41fc55ff8bae3b.webp",
+            "5aeb26b5a7fdf09bf5f030b76eee054d.webp",
+            "9dbfc8cc175432b184996d034ace78ec.webp",
+            "7b53a1ba658d103c10b6436fc2f2f674.webp",
+            "8e6a82a19e461a1f918f274fd86f6758.webp",
+            "f1f9951a8c408216a3517ed5a9a266b8.webp"
+        ],
+        "video_url": "static/vid/A01.mp4",
+        "json_url": "static/json/A01.json",
+        "marker_color": "blue"
+    },
+    {
         "name": "Alberta (02)",
         "id": "A02",
         "lat": 55.7,
@@ -44,18 +68,25 @@
         "marker_color": "blue"
     },
     {
-        "name": "British Columbia (02)",
-        "id": "B02",
-        "lat": 53.7,
-        "lon": -122.8,
-        "date": "May 6th, 2023",
+        "name": "British Columbia (01)",
+        "id": "B01",
+        "lat": 53.3,
+        "lon": -120.1,
+        "date": "May 5th, 2023",
         "image_urls": [
-            "1.webp",
-            "2.webp",
-            "3.webp"
+            "a4c64f216845a79d67d1684fd5770e87.webp",
+            "927a22fa855fc99e910d78290f77dee8.webp",
+            "0d1c53e81f0c62099f05d5cfbf2c8403.webp",
+            "876f906087a2f2a63eac58d211375425.webp",
+            "fd32068f2c388d10c1ad94b333271fc0.webp",
+            "e0af1d4c975a6308cb37c52fdb7d1e09.webp",
+            "a5730fa6722f52f36ac93a6cf77bc752.webp",
+            "0c468c0b3ca372c8dc7dfdc1e219b0d8.webp",
+            "88fa04d3d5c140766e439d2fa7b5ef0f.webp",
+            "4d38ed12c21e487b5a8430b086ab2203.webp"
         ],
-        "video_url": "static/vid/A02.mp4",
-        "json_url": "static/json/A02.json",
+        "video_url": "static/vid/B01.mp4",
+        "json_url": "static/json/B01.json",
         "marker_color": "blue"
     }
 ]
