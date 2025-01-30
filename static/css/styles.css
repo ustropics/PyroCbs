@@ -48,7 +48,6 @@ a:focus {
 #top_navbar {
   background: #035565;
   z-index: 5;
-  border-bottom: 1px solid white;
 }
 
 #sidebar {
@@ -68,7 +67,6 @@ a:focus {
 #sidebar .sidebar-header {
   padding: 20px;
   background: #035565;
-  border-bottom: 1px solid white;
 }
 
 #sidebar ul.components {
