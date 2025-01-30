@@ -20,11 +20,10 @@ a:focus {
 }
 
 .navbar {
-  padding: 15px 10px;
+  padding: 15.5px 10px;
   background: #011a19;
   border: none;
   border-radius: 0;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* add box-shadow */
 }
 
 .navbar-btn {
@@ -47,14 +46,15 @@ a:focus {
 
 
 #top_navbar {
-  background: #011a19;
+  background: #035565;
   z-index: 5;
+  border-bottom: 1px solid white;
 }
 
 #sidebar {
   min-width: 400px;
   max-width: 400px;
-  background: #011a19;
+  background: linear-gradient(to bottom, #002437, #002236);
   color: #fff;
   transition: all 0.3s;
   height: 100vh;
@@ -67,8 +67,8 @@ a:focus {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #011a19;
-  text-align: center;
+  background: #035565;
+  border-bottom: 1px solid white;
 }
 
 #sidebar ul.components {
