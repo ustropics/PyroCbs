@@ -1,6 +1,8 @@
 import os
 from PIL import Image, UnidentifiedImageError
 
+fire_id = 'A03'
+
 def resize_images(input_dir, output_dir):
     # Create the output directory if it doesn't exist
     if not os.path.exists(output_dir):
@@ -33,7 +35,7 @@ def resize_images(input_dir, output_dir):
 
 if __name__ == "__main__":
     # Replace with your directories
-    input_directory = "static/img/A02/full_res/"
-    output_directory = "static/img/A02/thumbnail/"
+    input_directory = f"static/img/full-res/{fire_id}"
+    output_directory = f"static/img/thumbnail/{fire_id}"
 
     resize_images(input_directory, output_directory)

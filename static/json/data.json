@@ -22,6 +22,28 @@
         "marker_color": "blue"
     },
     {
+        "name": "Alberta (03)",
+        "id": "A03",
+        "lat": 58.5,
+        "lon": -119.2,
+        "date": "May 6th, 2023",
+        "image_urls": [
+            "1f5320056d16c8033b30e65beffe8550.webp",
+            "51b2f21f3e1233f8ee04bf229b4e2af9.webp",
+            "428e74c30f2392a17b53aa6bcfc64a28.webp",
+            "4bbbbfde7aeda58f1858d78d67bfddc0.webp",
+            "d063cedd9017c34ae36a37e2f95d01c8.webp",
+            "c2072364081cca813623bcee5182b454.webp",
+            "a6399763a14f4f0ec4068c2f19bbd097.webp",
+            "fb012860d9886a614b2fcf767ea3ed0a.webp",
+            "a62cdf85fa0d0c19598776bc35c0eddf.webp",
+            "460654580c9bc7140e5497583245fdb5.webp"
+        ],
+        "video_url": "static/vid/A03.mp4",
+        "json_url": "static/json/A03.json",
+        "marker_color": "blue"
+    },
+    {
         "name": "British Columbia (02)",
         "id": "B02",
         "lat": 53.7,
