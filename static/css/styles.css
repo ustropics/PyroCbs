@@ -210,6 +210,13 @@ a.download:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#selected-image:hover {
+
+  opacity: .8;
 }
 
 
@@ -269,4 +276,8 @@ a.download:hover {
   object-fit: cover;
   cursor: pointer;
   border: 1px solid #ddd;
+}
+
+.thumbnail:hover {
+  opacity: 0.8;
 }

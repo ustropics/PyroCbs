@@ -24,7 +24,7 @@
     
     <script>
         var map_01 = L.map("map_01", {
-            center: [55.0, -120],
+            center: [56.0, -120],
             zoom: 6,
             zoomControl: false,
             preferCanvas: false,
@@ -53,11 +53,10 @@
 
             var popup = L.popup({"maxWidth": 1000, "minWidth": 100});
             var popupContent = `<div>
-                <b>${entry.name}</b><br>
-                ${entry.date}<br>
-                Lat: ${entry.lat}<br>
-                Lon: ${entry.lon}<br>
-                ${entry.image_urls && entry.image_urls.length > 0 ? `<a href='${entry.image_urls[0]}' target='_blank'>View Image</a>` : "No Image Available"}
+                <b style='font-size:16px;'>${entry.name}</b><br>
+                <b>Date:</b> ${entry.date}<br>
+                <b>Lat:</b> ${entry.lat}<br>
+                <b>Lon:</b> ${entry.lon}<br>
             </div>`;
             popup.setContent(popupContent);
             marker.bindPopup(popup);

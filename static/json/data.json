@@ -21,14 +21,14 @@
         ],
         "video_url": "static/vid/A01.mp4",
         "json_url": "static/json/A01.json",
-        "marker_color": "blue"
+        "marker_color": "green"
     },
     {
         "name": "Alberta (02)",
         "id": "A02",
         "lat": 55.7,
         "lon": -110.2,
-        "date": "May 5th, 2023",
+        "date": "May 29th, 2023",
         "image_urls": [
             "1.webp",
             "2.webp",
@@ -43,7 +43,7 @@
         ],
         "video_url": "static/vid/A02.mp4",
         "json_url": "static/json/A02.json",
-        "marker_color": "blue"
+        "marker_color": "green"
     },
     {
         "name": "Alberta (03)",
@@ -65,7 +65,7 @@
         ],
         "video_url": "static/vid/A03.mp4",
         "json_url": "static/json/A03.json",
-        "marker_color": "blue"
+        "marker_color": "green"
     },
     {
         "name": "Alberta (04)",
@@ -90,7 +90,7 @@
         ],
         "video_url": "static/vid/A04.mp4",
         "json_url": "static/json/A04.json",
-        "marker_color": "blue"
+        "marker_color": "green"
     },
     {
         "name": "Alberta (05)",
@@ -114,7 +114,103 @@
         ],
         "video_url": "static/vid/A05.mp4",
         "json_url": "static/json/A05.json",
-        "marker_color": "blue"
+        "marker_color": "green"
+    },
+    {
+        "name": "Alberta (06)",
+        "id": "A06",
+        "lat": 55.4,
+        "lon": -115.4,
+        "date": "May 21st, 2023",
+        "image_urls": [
+            "54853ae5dedff70b7a70559c04157960.webp",
+            "1ac0d2a19c93d80cad3be3f46f8df937.webp",
+            "dd1628f4ed108e390a1dc291a59d4844.webp",
+            "0d402513af013de73b6befd4c5882dee.webp",
+            "be9f191419d8982d1dc6e5e9688145c4.webp",
+            "a371d2d502c782f5f51b9cc2a5100250.webp",
+            "5d12ce4ec955b02c1d08782e98e15994.webp",
+            "47057603e5e76024f7ddc1d380a880eb.webp",
+            "400905033558ef4fd8dd9c1a42052558.webp",
+            "9999d00486f18234641dbc384497bf72.webp",
+            "a3fecb30d2bb3e0b8cc8a92ba391ac6c.webp",
+            "831b6bb9ce16296289bf03b1ae9dfe6b.webp",
+            "ab16c28e00b4903693271b7f44695399.webp"
+        ],
+        "video_url": "static/vid/A06.mp4",
+        "json_url": "static/json/A06.json",
+        "marker_color": "green"
+    },
+    {
+        "name": "Alberta (07)",
+        "id": "A07",
+        "lat": 52.8,
+        "lon": -116,
+        "date": "May 20th, 2023",
+        "image_urls": [
+            "f7df6cd24933cd6a542eb0ea13e4ee13.webp",
+            "811bac5e47dad7730aaf3564914cc2ee.webp",
+            "9055c298c3cf659167f34d520c2d1fd7.webp",
+            "49f53e782bbff0ad069890d25dfbeaae.webp",
+            "420bb8e48a21dd0713be94f41747db6b.webp",
+            "3a56886427e22e242ed588c55166dcb4.webp",
+            "c26e4125c17edea6689b9b1c39172563.webp",
+            "c044a90b3d8280087c540a678508b5ec.webp",
+            "0e175ae9d69f0bc7f07c293a6295a710.webp",
+            "7e24fac6930ddf42c595bf0cbdd2e292.webp",
+            "970cd08a9955a29286d9ff8b97552d36.webp"
+        ],
+        "video_url": "static/vid/A07.mp4",
+        "json_url": "static/json/A07.json",
+        "marker_color": "green"
+    },
+    {
+        "name": "Alberta (08)",
+        "id": "A08",
+        "lat": 58.6,
+        "lon": -119.8,
+        "date": "May 26th, 2023",
+        "image_urls": [
+            "9100236ccfd539cf37144b876b346dd6.webp",
+            "b878d8c27f613b2bbffee4ec864970b6.webp",
+            "f268d0cae5561aa178f6ea7463c8aceb.webp",
+            "7a04ec51c2a95cdd1bbddffe3ac6d8b5.webp",
+            "9a89d5e861e5a41d84f393b1ff6356c8.webp",
+            "b0a459df2be22be5af9c09d17e132a11.webp",
+            "f5c1304a348a35af666cba5b286c9b91.webp",
+            "5885aaef4000152e8c6c82b8653d12ee.webp",
+            "9835708d4f140344b168ee15c9a3944f.webp",
+            "b696cb2c24a3c5e361577bc826ec319e.webp",
+            "0bb038cfab010a78784e87326dc0e81a.webp",
+            "05467635e8eadc2ccb15c5bc5e78f48f.webp"
+        ],
+        "video_url": "static/vid/A08.mp4",
+        "json_url": "static/json/A08.json",
+        "marker_color": "green"
+    },
+    {
+        "name": "Alberta (09)",
+        "id": "A09",
+        "lat": 59,
+        "lon": -113.3,
+        "date": "June 3rd, 2023",
+        "image_urls": [
+            "3503b8ecf566a48024210c062d46c6ca.webp",
+            "d7ac7c6634c1a5aa87a02357d059e372.webp",
+            "3b84ac17335d1722f615c4b16cb71648.webp",
+            "16190c69edb06496b2d1cd6ad5e9b74b.webp",
+            "a8aed036e4c4b142dbe196e6ffa9134f.webp",
+            "10d599a735bee0e27fad31cfb1c8745d.webp",
+            "5abdcfd7a1b926df34322ee81bd38780.webp",
+            "84fde16ab06d0823ec233234f53d383a.webp",
+            "3397a3c93154bb95c065701ff860c726.webp",
+            "0f660a70de669207307ee91eb0a418a0.webp",
+            "5c8a0ce8390223fe12914b842555b60b.webp",
+            "4edc0442f3b64e4a220065c2aa4efc8c.webp"
+        ],
+        "video_url": "static/vid/A09.mp4",
+        "json_url": "static/json/A09.json",
+        "marker_color": "orange"
     },
     {
         "name": "British Columbia (01)",
@@ -136,7 +232,7 @@
         ],
         "video_url": "static/vid/B01.mp4",
         "json_url": "static/json/B01.json",
-        "marker_color": "blue"
+        "marker_color": "green"
     },
     {
         "name": "British Columbia (02)",
@@ -158,7 +254,7 @@
         ],
         "video_url": "static/vid/B02.mp4",
         "json_url": "static/json/B02.json",
-        "marker_color": "blue"
+        "marker_color": "green"
     },
     {
         "name": "British Columbia (03)",
@@ -180,7 +276,7 @@
         ],
         "video_url": "static/vid/B03.mp4",
         "json_url": "static/json/B03.json",
-        "marker_color": "blue"
+        "marker_color": "green"
     },
     {
         "name": "British Columbia (04)",
@@ -205,7 +301,7 @@
         ],
         "video_url": "static/vid/B04.mp4",
         "json_url": "static/json/B04.json",
-        "marker_color": "blue"
+        "marker_color": "green"
     },
     {
         "name": "British Columbia (05)",
@@ -229,6 +325,101 @@
         ],
         "video_url": "static/vid/B05.mp4",
         "json_url": "static/json/B05.json",
-        "marker_color": "blue"
+        "marker_color": "green"
+    },
+    {
+        "name": "British Columbia (06)",
+        "id": "B06",
+        "lat": 56.8,
+        "lon": -120.7,
+        "date": "May 20th, 2023",
+        "image_urls": [
+            "ee3cf6444aacb38f962e1db6c5ebef07.webp",
+            "e87ca5b9ae5f775f6963e098bd87c97e.webp",
+            "42d4e73510cdfe35e8fbe18b92671098.webp",
+            "c33fd8c4c1912c1f661559134c6aeb54.webp",
+            "e051778fe2a93c34edfdf94f5cbf555e.webp",
+            "d9c093ddab050ebce3e2fbbf788a1b7c.webp",
+            "e074dc5b4cf465905bde5ffef1932007.webp",
+            "25cd3a25e9c4fd9d5a8a5c25c4d4858b.webp",
+            "150e4fcaf3ffca5eef1e581becbdbe89.webp",
+            "0eb6a3dd26c0016597655d9b9041b7de.webp",
+            "fe5c5b01bd382f18ef5d94b15975d1e3.webp",
+            "49f92ae2074ab3a01e5188a52bfb0f60.webp"
+        ],
+        "video_url": "static/vid/B06.mp4",
+        "json_url": "static/json/B06.json",
+        "marker_color": "green"
+    },
+    {
+        "name": "British Columbia (07)",
+        "id": "B07",
+        "lat": 60,
+        "lon": -121.1,
+        "date": "May 21st, 2023",
+        "image_urls": [
+            "ac1d182e62c529496a750a8f7451d198.webp",
+            "0469f6c27cf82290a73285f27c77ae40.webp",
+            "3ac73473c28b80ce686781c08d7f73f8.webp",
+            "92b56309baad768ca8eabbabf19e444d.webp",
+            "ef11daa89ae648f2197046acc07882fd.webp",
+            "a28502a5fbda096a88ebfee4929f704e.webp",
+            "e6dc1503078136ab24d9d92237e3c608.webp",
+            "2b7f0ac556e05a40bd79e41cbacd0df3.webp",
+            "fc518f922bec772a43bb164e14679c61.webp",
+            "3f5f3d7a36be59c221eb68b12c1c6b91.webp",
+            "1865654fa5a4b27f4932e7cf755c7991.webp",
+            "dbbcc7f6999759901aabbf8995250f15.webp"
+        ],
+        "video_url": "static/vid/B07.mp4",
+        "json_url": "static/json/B07.json",
+        "marker_color": "green"
+    },
+    {
+        "name": "British Columbia (08)",
+        "id": "B08",
+        "lat": 60.3,
+        "lon": -121,
+        "date": "June 2nd, 2023",
+        "image_urls": [
+            "c55fd2852905a52d1138e4446e724b6c.webp",
+            "1f3cc658b39f141f72f3e03a2008ee1f.webp",
+            "b6076dbbe2780dd3e5b4d1673466fb7d.webp",
+            "29aabcb8779fc927e637e53e3d68ab97.webp",
+            "2ef43deb505f3bcc35c3b6e88ae05718.webp",
+            "f2d600879e46ce61410dfa984303a8ef.webp",
+            "7f68f06b61208e7a325dec4bc65f54b6.webp",
+            "d7f44633c45231297724966711b4a551.webp",
+            "95a218d8a0c1fba3ec696ee6f4358151.webp",
+            "313ef0e8caf3b11be562e376f3d1ae3d.webp",
+            "aa9fcec7eb260a9548e9a63b3a1f58b0.webp",
+            "0bf423194b4cc78844c294810a359e3e.webp"
+        ],
+        "video_url": "static/vid/B08.mp4",
+        "json_url": "static/json/B08.json",
+        "marker_color": "orange"
+    },
+    {
+        "name": "British Columbia (09)",
+        "id": "B09",
+        "lat": 57.45,
+        "lon": -121.62,
+        "date": "June 2nd, 2023",
+        "image_urls": [
+            "4e236067b9bcfd7bf5427b48d616d930.webp",
+            "f8579286963132c1cae212004dbff1a0.webp",
+            "293509270b3d689f69e1692d16e31e3a.webp",
+            "33ae0e6d6896976d54bd917429d2a194.webp",
+            "c35ebd384d6aff4cb3493b9f7ff29e9c.webp",
+            "4c3f78b6f1b44a7d9675b8b806209ffc.webp",
+            "7aee84520e8c137bcd39c48c25810613.webp",
+            "2b67743f79c3a295ad58109899fbf8b2.webp",
+            "de109a00669d0f37b9215b5883b984dc.webp",
+            "f83e605e4147f065b423dcc1b3e92066.webp",
+            "89694022513a961ae4e4ecd225d2481e.webp"
+        ],
+        "video_url": "static/vid/B09.mp4",
+        "json_url": "static/json/B09.json",
+        "marker_color": "orange"
     }
 ]
