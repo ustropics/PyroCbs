@@ -213,6 +213,30 @@
         "marker_color": "orange"
     },
     {
+        "name": "Alberta (10)",
+        "id": "A10",
+        "lat": 53.48,
+        "lon": -116.43,
+        "date": "June 9th, 2023",
+        "image_urls": [
+            "68856fc2bf6a62148a338cfbc0f9a842.webp",
+            "17134a4cdd25b1f81ac12dd2684471f0.webp",
+            "18ceab6f0e7cc359f5b229f72e9a3826.webp",
+            "aa0d62343de02f747ce05df4bd990c6e.webp",
+            "3df8626f07b141249af3e6761eef7c3f.webp",
+            "fd687920f59fdaa2b09d56b4f0d4c3ae.webp",
+            "3356435b79b8885a05a779ff715e78c2.webp",
+            "aa9acc423dcaa16e02795a0cbc2ccde1.webp",
+            "e242d266ce8b21d9a703f592a4f8ab04.webp",
+            "1d720c8c527ee256b30da5400e1bd08e.webp",
+            "bfe814245972ac429d5c536564bbc762.webp",
+            "c90f01cc4497d536cdfaf293dba30343.webp"
+        ],
+        "video_url": "static/vid/A10.mp4",
+        "json_url": "static/json/A10.json",
+        "marker_color": "orange"
+    },
+    {
         "name": "British Columbia (01)",
         "id": "B01",
         "lat": 53.3,
@@ -420,6 +444,54 @@
         ],
         "video_url": "static/vid/B09.mp4",
         "json_url": "static/json/B09.json",
+        "marker_color": "orange"
+    },
+    {
+        "name": "British Columbia (10)",
+        "id": "B10",
+        "lat": 57.31,
+        "lon": -121.86,
+        "date": "June 8th, 2023",
+        "image_urls": [
+            "0e416652e80b0e43d9fd5596e44eeb9a.webp",
+            "c2cc7d588a381d564c34ab08f9146a48.webp",
+            "ab74e09ba666ba8170de2f3c282ace48.webp",
+            "6e6056c69182f8bdeff14ec1dbd6956c.webp",
+            "a2b5090b9beabe9dc1b111148e44593c.webp",
+            "134c135b0176630b70f9a4370fa8fbdd.webp",
+            "6978b4c470409ee8b29dd5e4d2c327e9.webp",
+            "d7ee4d078b01483a1c740610a20ac845.webp",
+            "774e84e256a8c5a7fb8d52741e2fe283.webp",
+            "c8cd71cffda8eb55efc7bc9c21e975b3.webp",
+            "5d593c948ad427daacc1965542741e2c.webp",
+            "6cce5762fb1edbb327b1c8bbea4e64bd.webp"
+        ],
+        "video_url": "static/vid/B10.mp4",
+        "json_url": "static/json/B10.json",
+        "marker_color": "orange"
+    },
+    {
+        "name": "British Columbia (11)",
+        "id": "B11",
+        "lat": 55.24,
+        "lon": -120.6,
+        "date": "June 8th, 2023",
+        "image_urls": [
+            "629d29a52e711f28c9534d66cd0ce925.webp",
+            "6daf520dea7ed6551fe6e4c2f6af9516.webp",
+            "b0f0f43a4386d3fd3309f1c6c2bb4e15.webp",
+            "f205ddba8658d4db661202b5e6192828.webp",
+            "d1a971378cd6c8b8d76a08ce2242325f.webp",
+            "e30d6a66206b8a55b3295d2010bd0e7c.webp",
+            "709817bd0f4b62e8de31247d0f89417a.webp",
+            "3d9c76c37b7f0b7720a33e4391a0430c.webp",
+            "3b2518c10d18f5180841551e0905aa28.webp",
+            "6ab28c417f1f0b289b1911badb77cae1.webp",
+            "5d9b0cdcaff8ea85f38fceebfa91cef4.webp",
+            "5f90215d49d69ff7a1ce3ac24f2c0016.webp"
+        ],
+        "video_url": "static/vid/B11.mp4",
+        "json_url": "static/json/B11.json",
         "marker_color": "orange"
     }
 ]
