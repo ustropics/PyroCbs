@@ -1,7 +1,7 @@
 import os
 from PIL import Image, UnidentifiedImageError
 
-fire_id = 'A10'
+fire_id = 'B16'
 
 def resize_images(input_dir, output_dir):
     # Create the output directory if it doesn't exist
